@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vagus- blog side</title>
+     <link rel="stylesheet" href="style.css"> 
 </head>
 <body>
    
@@ -11,7 +12,7 @@
         <h1>Vagus</h1>
         <nav>
             <a href="index.html">Hjem</a>
-            <a href="blog.h"> </a>
+            <a href="blog.html" class="active">Blog/ Min historie </a>
         </nav>
     </header>
 
@@ -20,27 +21,30 @@
             <h1>Min Historie</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae inventore repellendus tempore dolores nobis a quia labore, culpa corrupti nostrum beatae perferendis placeat aspernatur aperiam voluptatibus ipsam temporibus quas ex?</p>
        <details>
-
-
-
+<summary class="btn">LÆS MERE</summary>
+<div class="fold-ud-tekst">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis odio dicta aliquam qui hic accusantium, natus dolorem. Voluptate dicta id, voluptas libero velit non repellendus, nesciunt facere in fugit quae!</p>
+</div>
        </details>
         </section>
 
 <hr>
 
 /*boksen med ting jeg ville vide før*/
-<section> 
-    <h2></h2>
-        <div>
+<section class="grid-sektion grid-boks-1"> 
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum dignissimos repudiandae asperiores, rem voluptatem enim quod eveniet. Harum iure blanditiis earum ipsum saepe corrupti sed sequi, nobis possimus optio debitis.</h2>
+        <div class="grid">
+
             /*første boks*/
-            <div>    
-            <h3></h3>
-            <p></p>
-            <details> </details>
-            <summary></summary>
-            <div></div>
-            <p></p>
-            <div></div>
+            <div class="grid-boks grid-boks-1">    
+            <h3>Vagusnerven</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, ea veniam! Vitae similique itaque natus suscipit a tempora quis iure modi repellat? Vero sit excepturi ab! Temporibus explicabo porro sequi.</p>
+            <details> 
+                <summary class="btn">LÆS MERER</summary>
+                    <div class="fold-ud-tekst">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque esse perspiciatis nihil aliquam sequi magni itaque quam, rerum velit modi vel aliquid enim quas dicta debitis corporis repellendus sunt quisquam!</p>
+                    </div>
+            </details>
            </div>
          
               /*anden boks*/

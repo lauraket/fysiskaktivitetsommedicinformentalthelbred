@@ -14,3 +14,172 @@ h1, h2, h3, h4 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-bottom: 0.5rem;
 }
+
+h1{
+    font-size: 35px;
+}
+
+p, a {font-size: 1rem;
+line-height: 1.4;}
+
+p {padding-bottom: 0.5rem;}
+
+img{ max-width: 100%;}
+
+/*Header og menu*/
+
+header{
+    background-color: #711f11 ;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {color: #F0F7FF; 
+font-size: 24px; padding-bottom: 0;} 
+nav a {color: #F0F7FF; font-size: 24px; padding-bottom: 0;}
+
+nav a {color: #F0F7FF; 
+    text-decoration: none; 
+    margin-left: 1rem; 
+    font-weight: bold; }
+
+nav a.active{
+    text-decoration: underline;
+}
+
+/*knapper og detaljer*/
+
+.bth { border: 2px solid #711f11; 
+    background-color: #711f11; 
+padding: 0.6rem 1.2rem; 
+text-decoration: none;
+color: #F0F7FF;
+display: inline-block; 
+margin-top: 0.5rem;
+border-radius: 20px;
+font-weight: bold;
+cursor: pointer;}
+
+/*topsektionn*/
+
+.hero{
+    background-color:#a6d3fc ;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.banner{
+    background-color:#a6d3fc ;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+/*scrollbar til genvejtil mobil*/
+.genveje-sektion{
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+
+.scroll-container{
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+}
+
+.card{
+    background-color:#a6d3fc ;
+    padding: 1.5rem;
+    border-radius: 10px;
+    min-width: 250px;
+    text-align: center;
+}
+
+/*cssgrid*/
+
+.grid-sektion{
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+.grid-boks{
+    background-color: #a6d3fc;
+    padding: 1.5rem;
+    border-radius: 10px;
+    grid-column:1/7 ; 
+}
+details {
+    margin-top: 0.5rem;
+}
+
+details summary::-webkit-details-marker {display: none;}
+
+.fold-ud-tekst {
+    background-color: #F0F7FF;
+    padding: 0.8rem;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    text-align: left;
+    color: #711f11;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #711f11;
+    color: #F0F7FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+footer h4, footer a, footer p   { 
+margin-bottom: 1rem;
+}
+
+/*desktop*/
+@media screen and (min-width: 769px) {
+.scroll-container{ display: grid;
+grid-template-columns: repeat(3, 1fr);
+overflow-x: visible;}
+.card {
+    min-width: auto;
+}
+
+
+.grid-boks-1 {
+    grid-column: 1/4;
+}
+
+.grid-boks-2 {
+    grid-column: 4/7;
+}
+
+.grid-boks-3 {
+    grid-column: 1/4;
+}
+.grid-boks-4 {
+    grid-column: 4/7;
+}
+footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    text-align: left;
+}
+}

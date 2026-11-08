@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="da
-">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,91 +7,135 @@
      <link rel="stylesheet" href="css/vagusstyle.css">
 </head>
 <body>
+   <a class="skip-link" href="#hovedindhold">Gå til sidens indhold</a>
    <header>
-    <h1>
-        VAGUS
-    </h1>
-    <nav>
-        <a href="forside.html" class="active">hjem</a>
-        <a href="blog.html">blog / Min historie</a>
+   <p class="site-name">VAGUS</p>
+   <nav aria-label="Hovedmenu">
+       <a href="forside.html" class="active" aria-current="page">Forside</a>
+       <a href="blog.html">Min historie</a>
     </nav>
    </header> 
 
-   <main>
+   <main id="hovedindhold">
     <section class="hero">
-        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore maxime ullam deserunt inventore autem nam atque laudantium. Ipsum doloremque tempora quae cum. Saepe numquam incidunt vel, culpa sapiente sint expedita.</h1>
+        <h1>Fysisk aktivitet og mental trivsel</h1>
 
-<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, amet cum. Ullam suscipit maxime reprehenderit ratione obcaecati repudiandae corrupti! Ipsum placeat dolorem quo officiis vitae dolores officia quaerat consequatur! Tempore.</p>
+        <p>Her finder du inspiration til at bruge bevægelse som en del af hverdagen. Små aktiviteter tæller, og du kan vælge det tempo, der passer til dig.</p>
+        <a href="#kom-i-gang" class="btn">Find inspiration til at komme i gang</a>
     </section>
 
-    <!-- citats bobbole -->
     <section class="banner">
-
-        <h2>citat how yoga changed my life </h2>
-        <a href="blog.html" class="btn">læs mere</a>
+        <h2>Bevægelse behøver ikke være perfekt</h2>
+        <p>Du kan begynde med det, der føles overskueligt i dag. En lille pause eller en kort tur er også en start.</p>
+        <a href="blog.html" class="btn">Læs min historie</a>
     </section>
 
-<hr>
+    <section class="content-section" id="kom-i-gang">
+        <h2>Kom i gang på din egen måde</h2>
+        <p>Der findes ikke én rigtig måde at bevæge sig på. Vælg noget, der passer til din hverdag, og giv dig selv lov til at justere undervejs.</p>
+        <div class="card-grid">
+            <article class="card">
+                <h3>Begynd småt</h3>
+                <p>Vælg et overskueligt mål, for eksempel en kort gåtur eller et par minutters bevægelse derhjemme. Det er helt i orden at starte forsigtigt.</p>
+            </article>
+            <article class="card">
+                <h3>Vælg noget, du kan lide</h3>
+                <p>Prøv dig frem med gåture, havearbejde, dans, cykling eller blide stræk. Det vigtigste er, at aktiviteten føles mulig for dig.</p>
+            </article>
+            <article class="card">
+                <h3>Tilpas efter dagsformen</h3>
+                <p>Nogle dage er der mere energi end andre. Du kan ændre planen, holde en pause eller vælge en roligere aktivitet.</p>
+            </article>
+        </div>
+    </section>
 
-<!-- rullebar hurtiggenvej til rro -->
-<section class="genveje-sektion">
-    <h2> Hurtig genvej til ro </h2>
-    <div class="scroll-container">
-     <div class="card">
-    <h3>2 min om dagen</h3>
-    <p>Lær at brug maven yayaayayayayaya</p>
-<details>
-    <summary class="btn">læs mere</summary>
-<div class="fold-ud-tekst">
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet odit sed, at, aliquam nobis nostrum est pariatur dolorem recusandae atque tempora quasi eligendi voluptatibus iusto totam. Hic omnis nihil architecto.</p>
-</div>
-</details>
+    <section class="content-section soft-section">
+        <h2>Idéer til pauser og bevægelse</h2>
+        <p>Brug forslagene som inspiration, ikke som krav. Du bestemmer selv, hvad der passer til dig.</p>
+        <div class="card-grid">
+            <article class="card">
+                <h3>En rolig pause</h3>
+                <p>Sæt et par minutter af til at sænke tempoet og mærke efter.</p>
+                <details>
+                    <summary class="btn">Læs forslag til en pause</summary>
+                    <div class="fold-ud-tekst">
+                        <p>Sæt dig behageligt, hvis du har lyst. Træk vejret, som det føles naturligt, og læg mærke til, hvordan kroppen føles. Stop, hvis øvelsen føles ubehagelig.</p>
+                    </div>
+                </details>
+            </article>
+            <article class="card">
+                <h3>Bevæg dig i dit tempo</h3>
+                <p>En kort gåtur eller let udstrækning kan være en enkel måde at få bevægelse ind i dagen.</p>
+                <details>
+                    <summary class="btn">Læs idéer til bevægelse</summary>
+                    <div class="fold-ud-tekst">
+                        <p>Vælg en aktivitet, der passer til din dagsform. Du kan for eksempel gå en kort tur, strække kroppen eller bevæge dig til musik. Hold pause, når du har brug for det.</p>
+                    </div>
+                </details>
+            </article>
+            <article class="card">
+                <h3>Find en pause i hverdagen</h3>
+                <p>En pause kan være stille, aktiv eller noget midt imellem.</p>
+                <details>
+                    <summary class="btn">Læs om pauser</summary>
+                    <div class="fold-ud-tekst">
+                        <p>Prøv at lægge mærke til, hvad der hjælper dig med at holde en pause. Det kan være frisk luft, rolig musik eller et øjeblik uden skærm.</p>
+                    </div>
+                </details>
+            </article>
+        </div>
+    </section>
 
+    <section class="content-section">
+        <h2>En fleksibel plan for ugen</h2>
+        <p>Hvis det hjælper dig at have en plan, kan du tage udgangspunkt i idéerne herunder. Du behøver ikke følge dem alle, og rækkefølgen er helt fri.</p>
+        <ul class="idea-list">
+            <li><strong>Vælg en mulighed:</strong> Find én aktivitet, du har lyst til at prøve.</li>
+            <li><strong>Find et tidspunkt:</strong> Knyt aktiviteten til et tidspunkt, der allerede passer ind i din dag.</li>
+            <li><strong>Gør plads til pauser:</strong> Planen må gerne ændre sig, hvis du har brug for hvile.</li>
+            <li><strong>Læg mærke til, hvad der virker:</strong> Behold de idéer, der føles hjælpsomme, og prøv noget andet, hvis de ikke passer.</li>
+        </ul>
+    </section>
 
-    <div class="card">
-        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ab quae deserunt consequatur doloribus atque itaque maxime dolor animi nobis architecto voluptatem dolore, neque accusantium eos? Voluptas assumenda amet ratione.
-        </h3>
- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima aut voluptatum in id alias? Sint tempora similique, aperiam sit consequuntur magnam fugiat. Nemo, molestias mollitia. Labore distinctio voluptatem necessitatibus impedit?</p>
-   <details>
-    <summary class="btn">LÆS MERE </summary>
-    <div class="fold-ud-tekst"> 
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos consequatur quos dolorem odit quibusdam dicta cumque ipsa qui nihil aperiam. Iste eaque corporis eius labore a quaerat magnam repudiandae harum!</p>
-    </div>
-   </details>
-</div>
+    <section class="content-section soft-section">
+        <h2>Ofte stillede spørgsmål</h2>
+        <details>
+            <summary>Skal jeg træne hårdt for at komme i gang?</summary>
+            <div class="fold-ud-tekst">
+                <p>Nej. Du kan begynde med let bevægelse og selv vælge tempo og varighed. Hvis du er usikker på, hvad der er passende for dig, kan du spørge en sundhedsfaglig person.</p>
+            </div>
+        </details>
+        <details>
+            <summary>Hvad hvis jeg ikke har overskud hver dag?</summary>
+            <div class="fold-ud-tekst">
+                <p>Det er normalt, at overskuddet varierer. Du kan vælge en mindre aktivitet, holde pause eller springe over. En plan skal kunne tilpasses dig.</p>
+            </div>
+        </details>
+        <details>
+            <summary>Er hjemmesiden personlig sundhedsrådgivning?</summary>
+            <div class="fold-ud-tekst">
+                <p>Nej. Indholdet er generel inspiration og kan ikke erstatte rådgivning, der tager udgangspunkt i din situation.</p>
+            </div>
+        </details>
+    </section>
 
-<div class="card">'
-<h3>overskrift </h3>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla commodi distinctio ipsum temporibus ducimus impedit qui, provident exercitationem tempore hic ullam fugit similique labore, laborum accusamus fugiat blanditiis reprehenderit dignissimos.</p>
-<details>
-    <summary class="btn"> LÆS MERE</summary>
-    <div class="fold-ud-tekst">
- <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ratione quam necessitatibus harum commodi temporibus reiciendis animi molestiae nulla et repellat voluptates aperiam modi tempora aspernatur ipsum maiores ex dolorem.</p>
-    </div>
-</details>
-</div> 
- </div>
-</section>
-
-<hr> 
-
-<!-- om os -->
-<section class="hero">
-<h1>VAGUS</h1>
-<a href="blog.html" class="btn">OM OS</a>
-</section>
+    <section class="content-section about-section">
+        <h2>Om Vagus</h2>
+        <p>Vagus handler om fysisk aktivitet, hverdagsvaner og mental trivsel. Her kan du finde enkle idéer og læse mere om emner, der knytter sig til kroppen og bevægelse.</p>
+        <a href="blog.html" class="btn">Gå til emner og refleksioner</a>
+    </section>
    </main>
    
    <!-- footer -->
      <footer>
     <section>
-        <h4>VAGUS</h4>
+        <h2>VAGUS</h2>
         <p>Fysisk aktivitet som mental medicin</p>
     </section>
     <section>
-        <h4>Navigation</h4>
-        <a href="forside.html">Hjem</a><br>
-        <a href="blog.html"> blog </a>
+        <h2>Navigation</h2>
+        <a href="forside.html">Gå til forsiden</a><br>
+        <a href="blog.html">Læs min historie</a>
     </section>
   </footer>
 </body>

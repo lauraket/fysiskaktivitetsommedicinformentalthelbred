@@ -71,6 +71,15 @@ main{
   width: 50%;
   margin: 0 auto; /*Centrerer elementet på siden*/
 }
+input[type=tekst] ,  input[type=navn] , input[type=email] , input[type=alder] , input[type=fokus] , input[type=tel], select, textarea {
+	width: 100%;
+	padding: 1em;
+	border: 1px solid #F0F7FF;
+	border-radius: 4px;
+	margin-top: 0.5em;
+	margin-top: 1em;
+}
+
 
 /*Andre style elementer*/
 

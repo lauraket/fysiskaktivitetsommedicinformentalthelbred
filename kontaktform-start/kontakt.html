@@ -23,6 +23,77 @@
         <h1>Kontakt os</h1>
             <p class="kontakt-tekst">Skriv til os via kontaktformularen og så vender vi tilbage til dig</p>
 
+            <form>
+                <label for="Navn">Navn</label>
+                <input id="Navn" type="text" required>
+
+                <label for="mail">E-mail</label>
+                <input id="mail"  type="email">
+
+                <label for="tel">Telefon</label>
+                <input id="tel" type="tel">
+
+                <label for="alder">Alder</label>
+                <input id="alder" type="text">
+
+             <label for="fokus">Hvad er dit primær fokus? (feks. stress, andgst, AADHD-uro, søvnproblemer eller bare nysgerrighed)?</label>
+             <input id="fokus" type="text">
+
+                /*dropdown*/
+
+            <div class="custom-select">
+                <label for="henvendelse">vælg</label>
+                <select id="henvendelse">
+                    <option value="0" selected="true" disabled>Hvad handler din henvendelse om?</option>
+                       <option value="1">Jeg har brug for hjælp til at finde ro</option>
+                       <option value="2">Ville gerne dele min egen beretning</option>
+                       <option value="3">Spøgsmål til øvelser på siden</option>
+                       <option value="4">Bare et generelt hej/feedback</option>
+                </select>
+            </div>
+             
+            /*checkboks af servides*/
+
+            <fieldset class="checkboks">
+                <legend>Hvilke redskaber er du intresseret i?</legend>
+                <div>
+                    /*input er over label for eller ville teksten være før checkboks*/
+                    <input type="checkbox" id="vejrtreakning">
+                    <label for="vejrtreakning">Vejrtrækningsøvelser (2 min om dage)</label>
+
+                    <input type="checkbox" id="vagus">
+                    <label for="vagus">Ro på vagusnerven</label>
+
+                    <input type="checkbox" id="tankemylder">
+                    <label for="tankemylder">Kropslige stræk mod tankemylder</label>
+
+
+            
+                    <div>
+                        <input type="checkbox" id="bilrengørning">
+                        <label for="bilrengørning"></label></div>
+
+                </div>
+            </fieldset>
+
+            <label for="besked">besked</label>
+            <textarea  id="besked" cols="30" rows="10"></textarea>
+
+            <fieldset>
+                <legend>Ville du tilmelde vores rolige nyhedsbrev med ugentlige tips?</legend>
+                <input id="ja" type="radio" name="kontakt">
+                <label for="ja">JA</label>
+
+                <input id="nej" type="radio" name="kontakt"> 
+                <label for="nej">NEJ</label>
+
+            </fieldset>
+
+            <input type="submit" name="submit" value="Send fomular">
+  
+           
+
+            </form>
        
     </main>
 </body>
